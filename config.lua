@@ -8,7 +8,7 @@ Config.BlipLocations = { -- Set the blip locations here for each dealership
 
 Config.Target = false
 Config.mojia = false
-Config.Fuel = 'lj-fuel'
+Config.Fuel = 'LegacyFuel'
 
 --[[ when adding a new dealer must make an sql file as well with the following layout
     INSERT INTO `dealerships` (`citizenid`, `dealername`, `funds`, `purchased`) VALUES (NULL, 'Benefactor', '0',false)
